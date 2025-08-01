@@ -10,3 +10,8 @@ your group (feel free to come up with a group name). Once you have saved the
 file, you should commit it, push it to GitHub, then submit a pull request from
 your repository to the `results` branch of the [original repository](
 https://github.com/NeuroHackademy2025/rbc-projects-template).
+
+
+To make our p_factor predictions, we selected all the gray matter volume regions in the PNC_FreeSurfer dataset, since that was the preprocessed anatomical outputs. From that, we narrowed down the specific characteristics we wanted are - age, sex, and the 3 behavioral metrics: internalizing_mcelroy_harmonized_all_samples, externalizing_mcelroy_harmonized_all_samples, attention_mcelroy_harmonized_all_samples. We then used a LinearRegression model to train and test our model.
+
+To make our p_factor predictions, we selected all the gray matter volume regions in the PNC_FreeSurfer dataset, since that was the preprocessed anatomical outputs. From that, we narrowed down the specific characteristics we wanted are - age, sex, frontalpole, insula and the 3 behavioral metrics: internalizing_mcelroy_harmonized_all_samples, externalizing_mcelroy_harmonized_all_samples, attention_mcelroy_harmonized_all_samples. We then used a LinearRegression model to train and test our model.
