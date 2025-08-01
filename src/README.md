@@ -24,3 +24,5 @@ you should give your library a more descriptive / better name).
    sure you're in the repository root directory (where the `pyproject.toml`
    file lives) and run the following command:
    `pip install -e .`
+
+command used to get the features file: python src/get_features.py derivatives/features.csv -a aparc -m GrayVol
